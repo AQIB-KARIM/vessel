@@ -1,0 +1,11 @@
+.greenCar{
+    object-fit:contain;
+    width:350px
+}
+@media screen and (max-width:707px) {
+    .greenCar{
+        object-fit:contain;
+        width:90%;
+        height:90%;
+    }
+}

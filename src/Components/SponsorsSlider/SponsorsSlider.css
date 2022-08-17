@@ -1,0 +1,28 @@
+.sponsorsContainer{
+    margin-top: 3vmax;
+            width:100vw;
+            max-width:100%;
+            margin:0;
+            padding:1.5vmax 0;
+            background:#fcf7f7;
+}
+.sponserImage{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.sponserSlider div div {
+    display:flex !important;
+    justify-content:center !important;
+    align-items: center;
+}
+
+@media screen and (max-width:707px) {
+    .sponsorsContainer{
+        padding: 2vmax 0;
+        }
+        .sponserImage{
+            width: 50px;
+            height: auto;
+        }
+}

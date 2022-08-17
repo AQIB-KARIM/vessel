@@ -1,0 +1,34 @@
+.footer{
+    background-image: url("../../assets/Footer.png");
+    width: 100vw;
+    max-width: 100%;
+    /* height: 80vh; */
+    padding: 5vmax 0 0vmax 0;
+}
+.debitCard{
+    width: 60px;
+    object-fit: contain;
+    height: 50px;
+}
+.socialBtn{
+    width: 50px;
+    object-fit: contain;
+    height: 50px;
+}
+.routeLinks{
+    font-size: 1vmax !important;
+    text-align: center;
+    font-weight: 400 !important;
+}
+
+@media screen and (max-width:707px) {
+    .debitCard{
+        width: 40px;
+        object-fit: contain;
+        height: 40px;
+    }
+    .routeLinks{
+        font-size:1.2vmax !important;
+        text-align: center;
+    }
+}

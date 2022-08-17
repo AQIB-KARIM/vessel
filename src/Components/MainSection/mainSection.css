@@ -1,0 +1,194 @@
+.MainSection{
+    height:138vh;
+    width:100vw;
+    padding-bottom:8vmax;
+    position:relative;
+    max-width: 100%;
+    background-image:url('../../assets/01.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.innerMainSection{
+    height:60vh;
+    width:100vw;
+    padding-bottom:8vmax;
+    position:relative;
+    max-width: 100%;
+    background-image:url('../../assets/car-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+  .monogram{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .pricing{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .loginForm{
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100%;
+    margin-top: 3vmax;
+    margin-bottom: 3vmax;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .MuiOutlinedInput-input{
+    height:0.07em !important;
+    padding-left: 30px !important;
+    font-size: 12px !important;
+    background-color:rgba(255,255,255,0.9) !important;
+    border: none !important;
+    border-radius: none !important;
+  }
+  .MuiSvgIcon-root{
+    width:0.8em !important;
+    height:0.8em !important
+  }
+  .fieldBox{
+    padding: 12px 0;
+  }
+  .fieldName{
+    color:white;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+  }
+  .innerForm{
+    background-color:rgba(51, 79, 119,0.9);
+    width:90%;
+    height:90%;
+    border-radius:10px;
+    margin:1.3vmax 0;
+  }
+  .NavBar{
+    background-image: url("../../assets/Nav.png");
+    width:55%;
+    display: block;
+    height:46px;
+    /* top:0;
+    right:0; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logo{
+    width:100%;
+    margin-left: 7vmax;
+    max-width: 270px;
+  }
+  .NavBarLinks{
+    font-size:1.0vmax !important;
+    color:#231f60 !important;
+    font-weight: 500 !important;
+    }
+  @media screen and (max-width:767px) {
+    .MainSection{
+      background-size: cover;
+    }
+    .innerMainSection{
+      background-image: url('../../assets/01.png');;
+      background-size: contain;
+    }
+
+    .add_returned{
+      padding: 5px !important;
+    }
+    
+    .MuiOutlinedInput-input{
+      height:0.1em !important;
+      padding: 15px 14px !important;
+
+    }
+    .innerForm{
+      width: 95%;
+      height:95%
+    }
+    .logo{
+    margin-left: 4vmax;
+      width:120px
+    }
+    .fieldBox{
+      padding: 12px 0;
+    }
+    .fieldName{
+      color:white;
+      font-weight: 600 !important;
+      font-size: 14px !important;
+    }
+    .monogram{
+      width:100px;
+      height: 120px;
+
+    }
+    .pricing{
+      width:100px;
+      height: 120px;
+    }
+    .MuiOutlinedInput-input{
+      padding-left: 4vmax !important;
+      font-size: 1.1vmax !important;
+      background-color:rgba(255,255,255,0.9) !important
+    }
+  }
+
+
+input{
+  border-radius: inherit !important;
+}
+input:focus{
+  border: none !important;
+  border-radius: none !important;
+}
+
+.add_returned{
+  color: #0a0a56 !important;
+  font-size: 0.9vmax !important;
+}
+
+.enquiry{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.add_returned{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.enquiry:hover{
+  background-color: #e90236 !important;
+}
+
+.add_returned:hover{
+  background-color: white !important;
+}
+
+
+.react-datepicker__input-container input{
+  /* height: 34px !important; */
+  border-radius: 5px !important;
+  padding: 10px 0px;
+  padding-left: 30px;
+  border: inherit;
+  position: relative;
+  background: rgb(243, 243, 243);
+}
+
+
+.MuiSvgIcon-root .MuiSvgIcon-fontSizeMedium .css-1e8ev71-MuiSvgIcon-root{
+  color: grey !important;
+}
+
+@media screen and (max-width:767px) {
+  .react-datepicker__input-container input{
+    width:85%;
+  }
+}

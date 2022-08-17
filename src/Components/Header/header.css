@@ -1,0 +1,44 @@
+.topHeader{
+    background-image: url("../../assets/topHeader.png");
+  }
+.paymentCard{
+    margin:0 4px;
+    width:40px;
+    height:30px;
+    object-fit: contain;
+  }
+  .customNavbar {
+    background-image:url("../../assets/Nav.png");
+    width:60%;
+    margin-right:-86px;
+    display: flex;
+    justify-content: space-evenly;
+    color:blue;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+  }
+  
+
+  @media screen and (max-width:707px) {
+    .paymentCard{
+        margin:0 4px;
+        width:45px;
+        height:30px;
+      } 
+      .logo{
+        width:100px;
+        height:70px
+      }
+      .customNavbar {
+        margin-right: -16px;
+        width:65vw;
+      }
+      .navLink{
+        font-size:0.7vmax !important
+      }
+      .MainSection{
+        background-size: contain;
+    background-repeat: no-repeat;
+      }
+  }
